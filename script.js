@@ -28,7 +28,7 @@ function calculateTip() {
 
 // supposed to hide elements 
 document.getElementById("each").style.display = "none";
-// this shouls call the function
+// this should call the function
 document.getElementById("calculate").onclick = function () {
   
     calculateTip();
