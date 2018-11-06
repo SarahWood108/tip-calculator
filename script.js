@@ -36,7 +36,7 @@ document.getElementById("calculate").onclick = function () {
  
 
 
-
+// making sure thing works in the console
 $("#calculate").click(function (event) {
     let thingClicked = this.innerHTML
     console.log("you clicked: ", thingClicked)
